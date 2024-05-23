@@ -380,7 +380,7 @@ section .section{
   .beans22{
     position: absolute;
     bottom: 42%;
-    left: 23%;
+    left: 22%;
     /* transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s; */
     z-index: 1;
   }
@@ -399,10 +399,60 @@ section .section{
   }
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width:680px){
   .home__title{
     font-size: 3rem;
     position: absolute;
-    top: 50%;
+    top: 45%;
+  }
+  #starbucks{
+    width: 200px;
+  }
+  .leaf1{
+    height: 100px;
+  }
+  .leaf{
+    position: absolute;
+    top: 40%;
+    right: 30%;
+  }
+
+  .beans3{
+    height: 50px;
+  }
+  .beans2{
+    height: 50px;
+  }
+  .beans1{
+    height: 50px;
+  }
+
+  .beans11{
+    position: absolute;
+    bottom:39%;
+    left: 52%;
+    z-index: 3;
+    /* transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s; */
+  }
+
+  .beans22{
+    position: absolute;
+    bottom: 42%;
+    left: 35%;
+    /* transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s; */
+    z-index: 1;
+  }
+
+  .beans33{
+    position: absolute;
+    left: 35% ;
+    top:43% ;
+    z-index: 1;
+    /* transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s; */
+  }
+  
+  .logo{
+    height: 30px;
+    /* margin: 200px; */
   }
 }
