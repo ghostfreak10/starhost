@@ -74,6 +74,8 @@ body {
   font-size: var(--normal-font-size);
   /* background-color: var(--body-color); */
   color: var(--text-color);
+  background-color: red;
+  /* overflow: ; */
 }
 
 
@@ -100,6 +102,8 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 20px 0 20px;
+    /* width: 100vw; */
 }
 
 .nav__logo{
@@ -133,7 +137,9 @@ a {
         transition: top .4s;
     }
 }
-
+.main{
+  width: 100%;
+}
 .nav__list{
     text-align: center;
     display: flex;
@@ -161,9 +167,10 @@ right: 1.5rem;
   top: 0;
 }
 
-section .section{
+.section{
   height: 100vh;
-  width: 100vw;
+  width: 100%;
+  background:linear-gradient(150deg,#25995f,#0b5736,#010f08);
 }
 
 .home{
@@ -342,6 +349,12 @@ section .section{
 
 /* for medium device  */
 @media screen and (max-width: 340px){
+  main{
+    overflow: hidden;
+  }
+  .header{
+    margin: 0 30px 0 30px;
+  }
   .home__title{
     font-size: 3rem;
     position: absolute;
@@ -358,7 +371,7 @@ section .section{
     top: 40%;
     right: 22%;
   }
-
+  
   .beans3{
     height: 50px;
   }
@@ -400,6 +413,9 @@ section .section{
 }
 
 @media screen and (max-width:680px){
+  main{
+    overflow: hidden;
+  }
   .home__title{
     font-size: 3rem;
     position: absolute;
